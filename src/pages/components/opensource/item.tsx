@@ -7,10 +7,9 @@ const Project = (props: project) => {
   return (
     <div className={style['project-item']}>
       <span>
-        {' '}
         <a href={repo} target="_blank">
           {name}
-        </a>{' '}
+        </a>
       </span>
       <span>:{desc}</span>
     </div>

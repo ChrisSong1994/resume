@@ -11,6 +11,7 @@ const Header = (props: IIntriduce) => {
       <h2
         style={{
           fontSize: 30,
+          color: '#254665',
         }}
       >
         {name}
