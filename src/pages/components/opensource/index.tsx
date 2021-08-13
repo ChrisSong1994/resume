@@ -1,19 +1,10 @@
 import Item from './item';
 import style from './index.less';
 
-export type project_harvest = {
-  num: number;
-  text: string;
-};
-
 export type project = {
-  start: string;
-  end: string;
   name: string;
   desc: string;
-  technical: string;
-  effect: string;
-  harvest: project_harvest[];
+  repo: string;
 };
 
 interface IProjectsProps {
