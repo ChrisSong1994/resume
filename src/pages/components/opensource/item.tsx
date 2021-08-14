@@ -8,10 +8,10 @@ const Project = (props: project) => {
     <div className={style['project-item']}>
       <span>
         <a href={repo} target="_blank">
-          {name}
+          {name}:
         </a>
       </span>
-      <span>:{desc}</span>
+      <span> {desc}</span>
     </div>
   );
 };
