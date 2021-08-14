@@ -1,15 +1,3 @@
-# umi project
+# 求职简历
 
-## Getting Started
-
-Install dependencies,
-
-```bash
-$ yarn
-```
-
-Start the dev server,
-
-```bash
-$ yarn start
-```
+启动模版，修改信息，然后通过chrome 浏览器的打印功能转成pdf
