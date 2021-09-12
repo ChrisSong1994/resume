@@ -30,9 +30,12 @@ const Layout = memo(() => {
         <Block title="项目经验">
           <Projects data={_.get(data, 'projects')} />
         </Block>
-        <Block title="开源项目">
-          <Opensource data={_.get(data, 'opensource')} />
-        </Block>
+        {_.get(data, 'opensource') ? (
+          <Block title="开源项目">
+            <Opensource data={_.get(data, 'opensource')} />
+          </Block>
+        ) : null}
+
         <Block title="自我总结">
           <Summary text={_.get(data, 'summary')} />
         </Block>
