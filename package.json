@@ -23,6 +23,7 @@
     "@ant-design/pro-layout": "^6.5.0",
     "emotion": "^11.0.0",
     "lodash": "^4.17.21",
+    "puppeteer": "^16.1.0",
     "react": "17.x",
     "react-dom": "17.x",
     "umi": "^3.5.13"
